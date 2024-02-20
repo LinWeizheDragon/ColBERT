@@ -16,7 +16,7 @@ from colbert.infra.launcher import print_memory_stats
 
 import time
 
-from colbert.modeling.modeling_flmr_for_indexing import FLMRModelForIndexing
+from flmr.models.flmr import FLMRModelForIndexing
 
 TextQueries = Union[str, 'list[str]', 'dict[int, str]', Queries]
 
